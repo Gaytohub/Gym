@@ -8,10 +8,14 @@ running result:
 
 
 ![Image text](https://raw.githubusercontent.com/Gaytohub/Gym/master/Gym%20Club2/img-folder/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.png)
+
+
 注册界面：
 
 
 ![Image text](https://raw.githubusercontent.com/Gaytohub/Gym/master/Gym%20Club2/img-folder/%E6%B3%A8%E5%86%8C.png)
+
+
 个人信息，新闻展示等界面：
 
 
