@@ -3,6 +3,7 @@ Assignment 2
 members: 薛飞跃 冉旭松
 
 后端由Tomcat 8.0搭建， 详细文件请看Android_Service文件夹
+运行视频在Gym Club2/Screencap文件夹下
 
 <div align="center">
 running result:
