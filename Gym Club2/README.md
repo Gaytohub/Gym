@@ -5,14 +5,13 @@ members: 薛飞跃 冉旭松
 <div align="center">
 running result:
 登录界面:
-  
-  
+  </br>
   <img height="505" src="https://raw.githubusercontent.com/Gaytohub/Gym/master/Gym%20Club2/img-folder/%E7%99%BB%E5%BD%95%E7%95%8C%E9%9D%A2.png">
 
 
 
 注册界面：
-
+</br>
 
 <img height="505" src=https://raw.githubusercontent.com/Gaytohub/Gym/master/Gym%20Club2/img-folder/%E6%B3%A8%E5%86%8C.png>
 
