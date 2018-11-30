@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/gif"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+    <!--<com.example.tiamo.gym.CustomVideoView
+        android:id="@+id/videoview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>-->
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="top"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/logined"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="top"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="38dp"
+                    android:layout_marginRight="38dp"
+                    android:layout_marginTop="70dp"
+                    android:orientation="vertical">
+
+                    <EditText
+                        android:id="@+id/et_phone"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_gravity="center_vertical"
+                        android:background="@null"
+                        android:digits="0123456789"
+                        android:gravity="center_vertical"
+<<<<<<< HEAD
+                        android:hint="请输入帐号"
+=======
+                        android:hint="请输入手机号"
+>>>>>>> 第三次提交
+                        android:inputType="number"
+                        android:maxLength="11"
+                        android:maxLines="1"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@android:color/white"
+                        android:textSize="18dp"/>
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/horizontal_line"/>
+
+<<<<<<< HEAD
+=======
+                    //错误提示语
+                    <TextView
+                        android:id="@+id/m_phone_hint"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#e40b12"
+                        android:text="请输入11位手机号码"
+                        android:textSize="25px"
+                        android:gravity="right"
+                        android:padding="6px"
+                        android:layout_marginRight="38px"
+                        android:visibility="invisible"
+                        />
+
+>>>>>>> 第三次提交
+                    <EditText
+                        android:id="@+id/et_pwd"
+                        android:layout_width="match_parent"
+                        android:layout_height="40dp"
+                        android:layout_marginTop="20dp"
+                        android:background="@null"
+                        android:gravity="center_vertical"
+                        android:hint="请输入密码"
+                        android:inputType="textPassword"
+                        android:maxLength="11"
+                        android:maxLines="1"
+                        android:paddingLeft="5dp"
+                        android:textColor="@android:color/white"
+                        android:textColorHint="@android:color/white"
+                        android:textSize="18dp"/>
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> 第三次提交
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:layout_alignParentBottom="true"
+                        android:background="@color/horizontal_line"/>
+
+<<<<<<< HEAD
+=======
+                    //错误提示语
+                    <TextView
+                        android:id="@+id/m_password_hint"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColor="#e40b12"
+                        android:text="密码不能少于6位"
+                        android:textSize="25px"
+                        android:gravity="right"
+                        android:padding="6px"
+                        android:layout_marginRight="38px"
+                        android:visibility="invisible"
+                        />
+
+>>>>>>> 第三次提交
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="20dp">
+
+                </LinearLayout>
+
+
+
+                <Button
+                    android:id="@+id/btn_entered"
+                    style="?android:attr/borderlessButtonStyle"
+                    android:layout_width="match_parent"
+                    android:layout_height="45dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="30dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_marginTop="20dp"
+                    android:background="@drawable/shape_green_content_normal"
+                    android:text="登录"
+                    android:textColor="@color/white"
+                    android:textSize="18dp"/>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal">
+                    <TextView
+                        android:id="@+id/tv_register"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="15dp"
+                        android:text="没有账号？快速注册"
+                        android:textColor="@color/greens"/>
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="bottom"
+<<<<<<< HEAD
+                    android:paddingTop="350dp"
+=======
+                    android:paddingTop="280dp"
+>>>>>>> 第三次提交
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="90dp"
+                        android:gravity="center"
+                        android:text="使用第三方登录"
+                        android:textColor="@color/white"
+                        android:textSize="16dp"
+                        android:visibility="visible"/>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+
+                        <ImageView
+                            android:id="@+id/iv_wechat"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginTop="10dp"
+                            android:padding="10dp"
+                            android:src="@drawable/qq_sel" />
+
+                        <ImageView
+                            android:id="@+id/iv_qq"
+                            android:layout_width="80dp"
+                            android:layout_height="80dp"
+                            android:layout_marginLeft="20dp"
+                            android:layout_marginTop="10dp"
+                            android:padding="10dp"
+                            android:src="@drawable/wechat_sel" />
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        android:orientation="vertical"
+        android:id="@+id/login">
+
+        <ImageView
+            android:id="@+id/mainlogo"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="500dp"
+            android:layout_gravity="center_horizontal"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+            <Button
+                android:id="@+id/btn_enter"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="57dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_green_content_normal"
+                android:text="登录"
+                android:textColor="@color/white"
+                android:textSize="18dp"/>
+
+            <Button
+                android:id="@+id/btn_rigester"
+                style="?android:attr/borderlessButtonStyle"
+                android:layout_width="150dp"
+                android:layout_height="45dp"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginLeft="35dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/shape_green_content_normal"
+                android:text="注册"
+                android:textColor="@color/white"
+                android:textSize="18dp"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+</FrameLayout>

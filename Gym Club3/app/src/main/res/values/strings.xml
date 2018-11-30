@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Gym</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+<<<<<<< HEAD
+    <string name="username">"冉旭松"</string>
+    <string name="tel">"188****1312</string>
+=======
+    <string name="username">暂无</string>
+    <string name="tel">暂无</string>
+
+    <string name="startLocation">开始定位</string>
+    <string name="stopLocation">停止定位</string>
+
+    <string name="no_result">对不起，没有搜索到相关数据！</string>
+>>>>>>> 第三次提交
+</resources>

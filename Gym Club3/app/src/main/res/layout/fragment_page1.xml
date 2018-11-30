@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--无图片布局-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+   <LinearLayout
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="@drawable/layer_list">
+
+       <LinearLayout
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:padding="19px"
+           android:orientation="vertical">
+
+           <View
+               android:layout_width="wrap_content"
+               android:layout_height="0.7dip" />
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content"
+               android:orientation="horizontal">
+
+               <TextView
+                   android:id = "@+id/lv1_title"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="10dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:singleLine="true"
+                   android:text="哑铃科普篇"
+                   android:textColor="#000000"
+                   android:textSize="16sp"/>
+
+               <TextView
+                   android:id = "@+id/ic_tag"
+                   android:layout_width="60dp"
+                   android:layout_height="17dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginTop="6dp"
+                   android:gravity="center"
+                   android:background="#727272"
+                   android:text="健身专栏"
+                   android:textColor="#FFFFFF"
+                   android:textStyle="bold"
+                   android:textSize="10sp"/>
+           </LinearLayout>
+
+           <LinearLayout
+               android:layout_width="match_parent"
+               android:layout_height="wrap_content">
+
+               <TextView
+                   android:id="@+id/lv1_content"
+                   android:layout_width="wrap_content"
+                   android:layout_height="wrap_content"
+                   android:layout_marginTop="7dp"
+                   android:layout_marginLeft="10dp"
+                   android:layout_marginRight="10dp"
+                   android:maxLines="3"
+                   android:text="哑铃夹胸和缆绳夹胸的区别！1.效率和便利性哑铃是非常方便的器械，不管是在健身房还是家里健身，都可以轻松拥有，而且利用哑铃进行飞鸟的时候胸肌感受度也非常好！缆绳训练器相比哑铃来说在使用效率和方便度来说会差一点，只有专门的健身房才会有缆绳训练器"
+                   android:textColor="#666666"
+                   android:textSize="13sp"/>
+           </LinearLayout>
+
+           <View
+               android:layout_width="wrap_content"
+               android:layout_height="2.0dip" />
+       </LinearLayout>
+   </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/layer_list">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="19px">
+
+
+            <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/item_img_icon"
+                android:layout_width="120dp"
+                android:layout_height="90dp"
+                android:layout_marginRight="10dp"
+                app:riv_corner_radius="5dip"
+                android:adjustViewBounds="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/news" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/item_tv_title"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:singleLine="true"
+                    android:text="这是一篇关于瑜伽球的介绍~"
+                    android:textColor="#000000"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/item_tv_des"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:maxLines="2"
+                    android:text="舍长你来扯扯瑜伽球的小知识吧。"
+                    android:textColor="#666666"
+                    android:textSize="13sp" />
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center" >
+
+                    <TextView
+                        android:id="@+id/item_tv_comment"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentLeft="true"
+                        android:text="666评论"
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/item_tv_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="10dp"
+                        android:text="健身专栏"
+                        android:textColor="#666666"
+                        android:textSize="13sp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

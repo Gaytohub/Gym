@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<<<<<<< HEAD
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+=======
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+>>>>>>> 第三次提交
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+<<<<<<< HEAD
+        android:layout_height="wrap_content"
+=======
+        android:layout_height="match_parent"
+>>>>>>> 第三次提交
+        android:layout_margin="10dp"
+        app:cardCornerRadius="5dp"
+        app:contentPadding="5dp"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginBottom="10dp">
+
+                <TextView
+                    android:id="@+id/coach_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:singleLine="true"
+                    android:layout_weight="1"
+                    android:text="    腹肌撕裂计划"
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/coach_status_item"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="right"
+                    android:singleLine="true"
+                    android:text="已完成   "
+                    android:textColor="#000000"
+                    android:textSize="13sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="19px">
+
+                <com.makeramen.roundedimageview.RoundedImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/coach_img_icon"
+                    android:layout_width="65dp"
+                    android:layout_height="65dp"
+                    android:layout_marginRight="10dp"
+                    app:riv_corner_radius="5dip"
+                    android:adjustViewBounds="true"
+                    android:scaleType="fitXY"
+                    android:src="@drawable/news" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:id="@+id/coach_item_provider"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="5dp"
+                        android:singleLine="true"
+                        android:text="冉旭松训练中心"
+                        android:textColor="#000000"
+                        android:textStyle="bold"
+                        android:textSize="16sp" />
+
+                    <TextView
+                        android:id="@+id/coach_item_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+<<<<<<< HEAD
+                        android:text="使用时间：2018-10-9"
+=======
+                        android:text="874030912@qq.com"
+                        android:autoLink="email"
+>>>>>>> 第三次提交
+                        android:textColor="#000000"
+                        android:textSize="13sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+
+                        <TextView
+                            android:id="@+id/coach_item_cost"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="总价：¥ 798"
+                            android:layout_weight="1"
+                            android:textColor="#000000"
+                            android:textSize="13sp" />
+
+                        <Button
+<<<<<<< HEAD
+=======
+                            android:id="@+id/evaluate_button"
+>>>>>>> 第三次提交
+                            android:layout_width="0dip"
+                            android:layout_height="27dp"
+                            android:layout_margin="1dip"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape_bt"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:text="评价" />
+
+                        <Button
+<<<<<<< HEAD
+=======
+                            android:id="@+id/again_button"
+>>>>>>> 第三次提交
+                            android:layout_width="0dip"
+                            android:layout_height="27dp"
+                            android:layout_margin="1dip"
+                            android:layout_weight="1"
+                            android:background="@drawable/shape_bt"
+                            android:gravity="center"
+                            android:textSize="13sp"
+                            android:text="再约一次" />
+                    </LinearLayout>
+
+
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </android.support.v7.widget.CardView>
+
+<<<<<<< HEAD
+</FrameLayout>
+=======
+</RelativeLayout>
+>>>>>>> 第三次提交
