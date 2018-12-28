@@ -1,0 +1,53 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="这是一篇关于瑜伽球的介绍~"
+            android:textSize="45px"
+            android:singleLine="true"
+            android:textStyle="bold"
+            android:layout_marginBottom="10px"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/news"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35px"
+
+            android:text="瑜伽球也称为健身球或瑜伽健身球，是一种配合运动健身的球类运动工具。材质多是由柔软的PVC材料制成，当人体与之接触时，内部充气的健身球会均匀地抚摸人体的接触部位从而产生按摩作用，这有益于促进血液循环。
+    瑜伽球的动作编排是针对腹部，背部，腰部等主要部位，练习时要配合缓慢，有节奏的呼吸进行伸展，挤压等动作，令肌肉得到有效的按摩，放松，消耗脂肪的功效，同时也是一种提高专注能力，减轻精神压力，增强四肢和脊椎的承受的耐力。
+    "/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:src="@drawable/news2"/>
+
+        <TextView
+            android:layout_margin="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="35px"
+
+            android:text="瑜伽球练习的好处
+
+  1、瑜伽健身球有很强的趣味性,软软的很有弹性。练习者在进行普通的器械运动,如跑步机、仰卧起坐时,运动者只能通过长时间地重复几个动作来消耗热量,这就使得运动者的健身过程非常的枯燥、乏味。瑜伽球操改变了以往模式化的训练方式,让运动者伴着热烈奔放的音乐,与球一起玩耍。因此瑜伽健身球具有很强的娱乐性。
+
+  2、瑜伽健身球有助于锻炼人体的平衡能力,同事消耗大量的热量。普遍的运动都是在固定的机械器材上进行,而瑜伽健身球是软软的很有弹性的器具,它会随时随地的锻炼我们的平衡能力,让我们不得松懈,随时都需要有力的支撑瑜伽健身球,因此也会不断的燃烧我们多余的脂肪。
+
+  3、瑜伽健身球还有很强的按摩功能,瑜伽球的最高境界是人与球融为一体,瑜伽球操的动作设计力图达到人体与球面的充分接触,而瑜伽球是由柔软的PVC材料制成,当人体与之接触时,内部充气的瑜伽球会均匀地抚摸人体的接触部位从而产生按摩作用,这有益于促进血液循环。"/>
+    </LinearLayout>
+</ScrollView>

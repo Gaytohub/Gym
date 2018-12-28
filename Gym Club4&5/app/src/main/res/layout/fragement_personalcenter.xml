@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/h_back"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+
+        <ImageView
+            android:id="@+id/h_head"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_centerInParent="true" />
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@id/h_back"
+            android:orientation="horizontal"
+            android:layout_marginBottom="20dp">
+
+            <ImageView
+                android:id="@+id/user_line"
+                android:layout_width="1dp"
+                android:layout_height="25dp"
+                android:layout_marginLeft="15dp"
+                android:layout_centerHorizontal="true"
+                android:background="@color/white"/>
+
+            <TextView
+                android:id="@+id/user_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toLeftOf="@id/user_line"
+                android:textSize="17sp"
+                android:textColor="@color/white"
+                android:text="@string/username"/>
+
+            <TextView
+                android:id="@+id/user_val"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:textSize="17sp"
+                android:textColor="@color/white"
+                android:layout_toRightOf="@id/user_line"
+                android:text="@string/tel"/>
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+
+    <com.maiml.library.BaseItemLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:text_size  = "18"
+        app:text_color = "@color/gray"
+        app:icon_margin_left = "10"
+        app:icon_text_margin = "10"
+        app:margin_right = "10"
+        app:item_height = "50"
+        app:line_color = "@color/line"
+        app:right_text_size = "@color/line"
+        app:right_text_color  = "@color/gray"
+        app:right_text_margin = "10">
+
+    </com.maiml.library.BaseItemLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="25dp">
+
+    </LinearLayout>
+    <com.maiml.library.BaseItemLayout
+        android:id="@+id/layouttwo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:text_size  = "18"
+        app:text_color = "@color/gray"
+        app:icon_margin_left = "10"
+        app:icon_text_margin = "10"
+        app:margin_right = "10"
+        app:item_height = "50"
+        app:line_color = "@color/line"
+        app:right_text_size = "@color/line"
+        app:right_text_color  = "@color/gray"
+        app:right_text_margin = "10">
+
+    </com.maiml.library.BaseItemLayout>
+
+
+
+</LinearLayout>
